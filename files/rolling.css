@@ -1,0 +1,37 @@
+#demoLeft {
+float:left;
+margin:0px 0 0 0px;
+background: #FFF;
+overflow:hidden;
+border: 0px dashed #CCC;
+width: 912px;
+height:120px;
+border:5px solid #ccc;
+}
+ 
+
+
+#demoLeft .indemo {
+float: left;
+width: 500%;
+}
+
+ 
+
+#demo1,#demo3 {
+float: left;
+border:1px solid #fff;
+}
+#demo2,#demo4 {
+float: left;
+border:1px solid #fff;
+}
+
+#demo1 img,#demo2 img,#demo3 img,#demo4 img{
+width:160px;
+height:120px;
+border:1px solid #fff;
+}
+
+
+

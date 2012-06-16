@@ -1,0 +1,306 @@
+/*公共样式*/
+ 
+ 
+
+img
+{
+	border:0;
+}
+
+
+/*中间排版*/
+#body
+{
+ 
+	background:#FFF;
+ 
+ 
+}
+#body .table
+{
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+
+/*其他常用样式*/
+.global_sub
+{
+	height:26px;
+	line-height:30px;
+	background:#FFF url("r-global-sub.jpg") no-repeat;
+	padding-left:49px;
+	border-right:1px #C5D4DB solid;
+	color:#0179C2;
+}
+.r-global-sub
+{
+	height:26px;
+	line-height:30px;
+	background:#FFF url("r-global-sub.jpg") no-repeat;
+	padding-left:25px;
+	border-right:1px #C5D4DB solid;
+}
+.l-global-sub
+{
+	height:28px;
+	line-height:30px;
+	background:#FFF url("leftglobal_sub.jpg") no-repeat;
+	padding-left:5px;
+	color:#0179C2;
+}
+.border_no_top
+{
+	border-left:1px #C5D4DB solid;
+	border-right:1px #C5D4DB solid;
+	border-bottom:1px #C5D4DB solid;
+	padding:0px;
+}
+.border_top
+{
+	border-top:1px #C5D4DB solid;
+}
+.border_left_right
+{
+	border-left:1px #DDD solid;
+	border-right:1px #DDD solid;
+}
+.border
+{
+	border:1px #C5D4DB solid;
+}
+.userlogin_over
+{
+	width:110px;
+	height:15px;/*firefox*/
+	*height:20px;
+	border:1px #C60000 solid;
+	background-color:#F7F2BD;
+}
+.userlogin_out
+{
+	width:110px;
+	height:15px;/*firefox*/
+	*height:20px;
+}
+.space_between
+{
+	height:5px;
+}
+/*定义Float为左的代码*/
+.float_left
+{
+	float:left;
+}
+.float_right
+{
+	float:right;
+}
+/**分页**/
+.pagelist
+{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+.pagelist .n
+{
+	border:1px #DDD solid;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0px;
+	padding-bottom:0px;
+	background:#FFFFFF;
+}
+.pagelist .m
+{
+	border:1px #DDD solid;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:0px;
+	padding-bottom:0px;
+	background:#E7EEF1;
+}
+/*用于列表的鼠标移动样式*/
+.list_over
+{
+	padding-top:3px;
+	background:#E7EEF1;
+	border-bottom:1px #DDD dashed;
+}
+.list_out
+{
+	padding-top:3px;
+	border-bottom:1px #DDD dashed;
+}
+/*用于显示内容页的常用样式*/
+.msg_sub
+{
+	font:bold 15px "Tahoma","Arial","宋体";
+	color:#486F84;
+	padding:5px;
+	text-align:center;
+}
+.msg_date
+{
+	text-align:center;
+	font: 0.83em/1.5em Verdana, Arial, Helvetica, sans-serif;
+	padding:3px;
+}
+.msg_content
+{
+	padding:5px;
+	text-align:left;
+}
+/*我要留言样式*/
+.button
+{
+	background:#FFF url("btn.gif") repeat-x;
+	height:25px;
+	border:#7B9EBD;
+}
+/*友情提示页代码*/
+.error
+{
+	line-height:150%;
+	padding:15px;
+	width:450px;
+	border:1px #DDD dashed;
+}
+/*奇偶行颜色显示*/
+.wtr
+{
+	position:relative;
+	padding:1px;
+	text-align:left;
+	border-bottom:1px #DDD solid;
+	text-indent:0.3em;
+}
+.dtr
+{
+	position:relative;
+	padding:1px;
+	text-align:left;
+	background:#EEF4FD;
+	border-bottom:1px #DDD solid;
+	text-indent:0.3em;
+}
+/*语法高亮显示代码*/
+pre
+{
+	font-family:'Courier New' , Monospace;
+ 
+	width:99%;
+	overflow:hidden;
+	margin:0 0 1em 0;
+	background:#A1A1A1;
+	white-space: -moz-pre-wrap;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+pre ol, pre ol li, pre ol li span{margin:0 0; padding:0; border:none}
+pre a, pre a:hover{background:none; border:none; padding:0; margin:0}
+pre ol{list-style:decimal; background:#F7F7F7; margin:0px 0px 1px 3em !important; padding:5px 0; color:#5C5C5C; border-left:3px solid #146B00;}
+pre ol li{list-style:decimal; list-style-position:outside !important; color:#5C5C5C; padding:0 3px 0 10px !important; margin:0 !important; line-height:1.3em}
+pre ol li.alt{color:inherit}
+pre ol li span{color:black; background-color:inherit}
+pre .comment, pre .comments{color:#008200; background-color:inherit}
+pre .string{color:blue; background-color:inherit}
+pre .keyword{color:#069; font-weight:bold; background-color:inherit}
+pre .preprocessor{color:gray; background-color:inherit}
+pre .dp-xml .cdata{color:#ff1493}
+pre .dp-xml .tag, pre .dp-xml .tag-name{color:#069; font-weight:bold}
+pre .dp-xml .attribute{color:red}
+pre .dp-xml .attribute-value{color:blue}
+pre .dp-sql .func{color:#ff1493}
+pre .dp-sql .op{color:#808080}
+pre .dp-rb .symbol{color:#a70}
+pre .dp-rb .variable{color:#a70; font-weight:bold}
+pre .dp-py .builtins{color:#ff1493}
+pre .dp-py .magicmethods{color:#808080}
+pre .dp-py .exceptions{color:brown}
+pre .dp-py .types{color:brown; font-style:italic}
+pre .dp-py .commonlibs{color:#8A2BE2; font-style:italic}
+pre .dp-j .annotation{color:#646464}
+pre .dp-j .number{color:#C00000}
+pre .dp-delphi .number{color:blue}
+pre .dp-delphi .directive{color:#008284}
+pre .dp-delphi .vars{color:#000}
+pre .dp-css .value{color:black}
+pre .dp-css .important{color:red}
+pre .dp-c .vars{color:#d00}
+pre .dp-cpp .datatypes{color:#2E8B57; font-weight:bold}
+
+/*其他CSS*/
+.cate-list-yw
+{
+	padding-left:18px;
+	height:28px;
+}
+
+.cate-list-yw a
+{
+	font-size:14px;
+	font-weight:bold;
+}
+.i-s-p
+{
+	/**/
+}
+.i-s-p .i-s
+{
+	float:left;
+	width:430px;
+}
+.phpok_about div
+{
+	line-height:150%;
+}
+.i-s-p .i-p
+{
+	float:right;
+	width:300px;
+}
+
+.incbg
+{
+	margin-top:2px;
+	background:#FFF url("incbg.jpg") repeat-x;
+}
+
+
+
+/*两列左窄右宽排列*/
+#left
+{
+	float:left;
+	width:250px;
+	text-align:left;
+	height:600px;
+}
+#left .notice-marquee
+{
+	padding:0px;
+	text-align:left;
+ 
+}
+.notice-marquee .notice-title
+{
+ 
+	 
+}
+.notice-marquee .notice-msg
+{
+	text-indent:25px;
+}
+
+#right
+{
+	float:right;
+	width:670px;
+	text-align:left;
+}
+
+ 
